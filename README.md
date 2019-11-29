@@ -35,19 +35,13 @@ artist_id, name, location, latitude, longitude
 time - timestamps of records in songplays broken down into specific units
 start_time, hour, day, week, month, year, weekday
 
-## The project repo includes six files:
-
-#### test.ipynb 
-displays the first few rows of each table to let you check your database.
+## The project repo includes four files:
 
 #### create_tables.py 
 drops and creates the tables. Run this file to reset the tables before each time you run the ETL scripts.
 
-#### etl.ipynb 
-reads and processes a single file from song_data and log_data and loads the data into the tables. This notebook contains detailed instructions on the ETL process for each of the tables.
-
 #### etl.py 
-reads and processes files from song_data and log_data and loads them into tables. This will be filled in relation to the work done in the ETL notebook.
+reads and processes files from song_data and log_data and loads them into tables. 
 
 #### sql_queries.py 
 contains all the sql queries, and is imported into the last three files above.
