@@ -17,11 +17,11 @@ time_table_drop = "DROP table time"
 # Create Tables
 
 songplay_table_create = "CREATE TABLE IF NOT EXISTS songplays(\
-                        songplay_id text PRIMARY KEY NOT NULL, \
+                        songplay_id text SERIAL PRIMARY KEY NOT NULL, \
                         start_time timestamp NOT NULL, \
                         user_id text, level text NOT NULL, \
-                        song_id text NOT NULL, \
-                        artist_id text NOT NULL, \
+                        song_id text, \
+                        artist_id text, \
                         session_id int NOT NULL, \
                         location text NOT NULL, \
                         user_agent text NOT NULL)"
