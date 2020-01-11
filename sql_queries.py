@@ -1,7 +1,6 @@
 '''
-this document was last updated on 11/30/2019 after recieving feedback. 
-The primary key and NOT NULL conditions were added.
-Yet, I think we're still missing ON CONFLICT condition for insertion operations
+this document was last updated on 01/11/2020 after recieving feedback. 
+The primary key and NOT NULL conditions were added. ON CONFLICT and SERIAL were added
 
 '''
 
